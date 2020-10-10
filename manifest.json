@@ -1,0 +1,44 @@
+{
+  "id": "RESIZE_HALF_PIXEL",
+  "name": "Resize element by 0.5 px",
+  "description": "Resize element by 0.5px",
+  "version": "1.0.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0.0"
+  },
+  "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "Shrink width 0.5px",
+        "commandId": "ShrinkWidthHalfpxCommand",
+        "shortcut": {
+          "mac": "Ctrl+7"
+        }
+      },
+      {
+        "type": "menu",
+        "label": "Expand height 0.5px",
+        "commandId": "ExpandHightHalfpxCommand",
+        "shortcut": {
+          "mac": "Ctrl+8"
+        }
+      },
+      {
+        "type": "menu",
+        "label": "Shrink height 0.5px",
+        "commandId": "ShrinkHightHalfpxCommand",
+        "shortcut": {
+          "mac": "Ctrl+9"
+        }
+      },
+      {
+        "type": "menu",
+        "label": "Expand width 0.5px",
+        "commandId": "ExpandWidthHalfpxCommand",
+        "shortcut": {
+          "mac": "Ctrl+0"
+        }
+      }
+   ]
+}
