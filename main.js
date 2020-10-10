@@ -2,7 +2,7 @@ const {Text, Color} = require("scenegraph"); // XD拡張APIのクラスをイン
 
 function Log(selection){
   console.log("resize function is called!");
-  console.log(selection.items[0]);
+  console.log(selection.items);
 }
 
 function ExpandWidthHalfpx(selection) {
